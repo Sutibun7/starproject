@@ -1,5 +1,3 @@
-var Quel est le nom d'amiral de Borsalino ? = false;
-
 var select = document.queryselector('select')
 var para = document.queryselector('p')
 
