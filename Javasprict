@@ -1,0 +1,20 @@
+var Quel est le nom d'amiral de Borsalino ? = false;
+
+var select = document.queryselector('select')
+var para = document.queryselector('p')
+
+select addEventListener('change',Réponse);
+
+function réponse (){
+ var choice = select.value;
+ 
+ if (choice===Fujitora){
+  para.textContent = 'Réponse fausse.';
+  } else if (choice===Akainu){
+  para.textContent = 'Réponse fausse.';
+  } else if ( choice===Kizaru){
+  para.textContent = ' Réponse correct.';
+  } else if (choice===Aokiji){
+  pra.textContent = ' Réponse fausse.';
+  }
+
